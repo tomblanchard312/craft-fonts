@@ -1,0 +1,12 @@
+[package]
+name = "craft-ui-fonts"
+version = "0.1.0"
+edition.workspace = true
+license = "OFL-1.1"
+description = "Pinned public display and tabular UI font data"
+
+[lints]
+workspace = true
+
+[dev-dependencies]
+ttf-parser = "0.25.1"
