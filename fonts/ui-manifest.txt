@@ -1,0 +1,4 @@
+# Opt-in UI faces; same eight-field format as manifest.txt.
+Inter Tabular | Regular | fonts/inter-tabular/InterTabular-Regular.ttf | Latn | OFL-1.1 | fonts/inter-tabular/OFL-Inter.txt | 286d4af0d81358689ebc3f1fadcaad48dc7d7128dbbb40f44f837534e8f1afba | https://github.com/tomblanchard312/lumafoundry/tree/c0ab45793c353e4821d69bbf847869dd1f856d27/assets/fonts
+Inter Tabular | SemiBold | fonts/inter-tabular/InterTabular-SemiBold.ttf | Latn | OFL-1.1 | fonts/inter-tabular/OFL-Inter.txt | 86ef4ec87747ba8263cb6fbbf5392263056f4e0ff8e5c6ddea73bbfc11feb502 | https://github.com/tomblanchard312/lumafoundry/tree/c0ab45793c353e4821d69bbf847869dd1f856d27/assets/fonts
+Source Serif 4 Display | Semibold | fonts/source-serif/SourceSerif4Display-Semibold.ttf | Latn | OFL-1.1 | fonts/source-serif/OFL.md | ba711c7443224e9c95bc5fcd24a98f3d921e50b3873c27667884351067927a03 | https://github.com/adobe-fonts/source-serif/tree/80d3f8894c09c937bebfa9011247d2e1c79fd6f4

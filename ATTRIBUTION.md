@@ -106,3 +106,9 @@ for provenance and reuse, but consumers that must not embed Adobe fonts filter t
 (8 of the 51 faces, 2,594,420 bytes) and keep the remaining 43. DeckCraft already applies that
 filter; FigCraft adds it in its own build. Filtering is a consumer obligation and does not change
 the manifest or these pinned hashes.
+
+## Opt-in LumaFoundry UI faces
+
+- `fonts/source-serif/`: unmodified Source Serif 4 Display Semibold, Adobe, SIL OFL 1.1 (`OFL.md`); public upstream revision `80d3f8894c09c937bebfa9011247d2e1c79fd6f4`.
+- `fonts/inter-tabular/`: Inter 4.001, Rasmus Andersson / Inter Project Authors, SIL OFL 1.1 (`OFL-Inter.txt`); public input assets at https://github.com/tomblanchard312/lumafoundry/tree/c0ab45793c353e4821d69bbf847869dd1f856d27/assets/fonts. The original inputs are retained. `scripts/build-ui-tabular.py` freezes the tnum substitutions and renames the derived faces Inter Tabular.
+- `scripts/build-ui-tabular.py`, `crates/craft-ui-fonts/src/lib.rs`: original integration and test code for LumaFoundry, MIT OR Apache-2.0 (font data remains OFL-1.1).

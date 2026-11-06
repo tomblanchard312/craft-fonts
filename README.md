@@ -105,3 +105,7 @@ cargo test -p craft-fonts --features embed-latin  # same, for the opt-in Latin m
 ```
 
 Code is MIT OR Apache-2.0 (`LICENSE-MIT`, `LICENSE-APACHE`); each font keeps its own licence.
+
+## Public UI font data for LumaFoundry
+
+`craft-ui-fonts` is an explicit opt-in data crate containing Source Serif 4 Display Semibold and Inter Tabular Regular/Semibold. It does not change the default font manifest. Public sources, hashes and licenses are recorded in `fonts/ui-manifest.txt` and `ATTRIBUTION.md`. No private eridu-style content or history is included. Regenerate tabular faces with `python -m venv /tmp/ui-fonts`, `/tmp/ui-fonts/bin/pip install fonttools==4.60.1`, then `/tmp/ui-fonts/bin/python scripts/build-ui-tabular.py`. The script preserves source timestamps for reproducibility.
